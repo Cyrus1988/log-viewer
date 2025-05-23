@@ -17,11 +17,7 @@
         <span><span class="hidden md:inline">Duration: </span><span class="font-semibold">{{ logViewerStore.performance.requestTime }}</span></span>
         <span class="mx-1.5">&middot;</span>
       </template>
-      <span><span class="hidden md:inline">Version: </span><span class="font-semibold">{{ LogViewer.version }}</span></span>
     </p>
-    <a href="https://www.buymeacoffee.com/arunas" target="_blank" v-if="LogViewer.show_support_link">
-      <bmc-logo class="h-6 w-auto" title="Support me by buying me a cup of coffee ❤️" />
-    </a>
   </div>
 
   <keyboard-shortcuts-overlay />
